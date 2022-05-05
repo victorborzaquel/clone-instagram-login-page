@@ -1,0 +1,207 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        
+        body {
+            background-color: #fafafa;
+        }
+        
+        input {
+            width: 100%;
+            height: 2.5rem;
+            margin: 3px 0;
+            padding: 1rem 0.5rem;
+            border: #DBDBDB 1px solid;
+        }
+        
+        button:hover {
+            cursor: pointer;
+        }
+        
+        footer {
+            text-align: center;
+            width: 100%;
+        }
+        
+        .content {
+            margin: 40px auto 0 auto;
+            width: 870px;
+            display: flex;
+        }
+        
+        .phone {
+            position: relative;
+            width: 465px;
+            height: 635px;
+        }
+        
+        .phone-mockup {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .screen {
+            position: absolute;
+            right: 60px;
+            top: 27px;
+            height: 535px;
+            opacity: 1;
+            transition: opacity 1s linear;
+        }
+        
+        .hidden {
+            opacity: 0;
+            transition: opacity 1s linear;
+        }
+        
+        .right-content {
+            width: 350px;
+            margin-bottom: 45px;
+        }
+        
+        .box {
+            padding: 20px 40px;
+            margin: 10px 0;
+            background-color: #fff;
+            border: 1px solid #DBDBDB;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: fit-content;
+            flex-direction: column;
+        }
+        
+        .logo-image {
+            padding: 30px 0;
+        }
+        
+        .login-button {
+            width: 100%;
+            border: none;
+            height: 2rem;
+            background-color: #0095F6;
+            color: #fff;
+            font-weight: bolder;
+            font-size: 1rem;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        
+        .div {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            margin: 5px 0;
+        }
+        
+        .line {
+            height: 1px;
+            width: 100%;
+            background: rgb(219, 219, 219);
+        }
+        
+        .div-text {
+            padding: 0 10px;
+            color: #8b8b8b;
+            font-weight: bold;
+            font-size: .9rem;
+        }
+        
+        .btn-text {
+            background-color: #fff;
+            border: none;
+        }
+        
+        .btn-login-with-facebook {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .login-with-facebook-text {
+            color: #165179;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        
+        .forgot-password-text {
+            color: #165179;
+            font-size: 0.8rem;
+        }
+        
+        .dont-have-account-text {
+            font-size: .9rem;
+        }
+        
+        .dont-have-account-container {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .sing-up-text {
+            color: #348cc7;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        
+        .get-app-title {
+            padding: 20px 0;
+            font-size: .9rem;
+        }
+        
+        .get-app-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 7px;
+        }
+        
+        .get-app-btn {
+            height: 40px;
+        }
+        
+        .tags {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 10px 40px;
+        }
+        
+        .tags>a {
+            color: #999999;
+            font-size: .8rem;
+            text-decoration: none;
+        }
+        
+        .select-lang-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 60px;
+            margin-top: 20px;
+        }
+        
+        .select-lang-content>p {
+            color: #8E8E8E;
+            font-size: .8rem;
+        }
+        
+        select {
+            border: none;
+            background-color: #fafafa;
+            color: #8E8E8E;
+        }
+        
+        @media (max-width: 900px) {
+            aside {
+                display: none;
+            }
+            .content {
+                width: 350px;
+            }
+        }
